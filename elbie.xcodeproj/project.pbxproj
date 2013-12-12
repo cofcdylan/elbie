@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCFA50FE18598078005E1B0D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA50FD18598078005E1B0D /* Cocoa.framework */; };
+		FCFA510818598078005E1B0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCFA510618598078005E1B0D /* InfoPlist.strings */; };
+		FCFA510A18598078005E1B0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA510918598078005E1B0D /* main.m */; };
+		FCFA510E18598078005E1B0D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FCFA510C18598078005E1B0D /* Credits.rtf */; };
+		FCFA511118598078005E1B0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA511018598078005E1B0D /* AppDelegate.m */; };
+		FCFA511418598078005E1B0D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCFA511218598078005E1B0D /* MainMenu.xib */; };
+		FCFA511618598078005E1B0D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCFA511518598078005E1B0D /* Images.xcassets */; };
+		FCFA511D18598078005E1B0D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA511C18598078005E1B0D /* XCTest.framework */; };
+		FCFA511E18598078005E1B0D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA50FD18598078005E1B0D /* Cocoa.framework */; };
+		FCFA512618598078005E1B0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCFA512418598078005E1B0D /* InfoPlist.strings */; };
+		FCFA512818598078005E1B0D /* elbieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA512718598078005E1B0D /* elbieTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCFA511F18598078005E1B0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCFA50F218598078005E1B0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCFA50F918598078005E1B0D;
+			remoteInfo = elbie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCFA50FA18598078005E1B0D /* elbie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = elbie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFA50FD18598078005E1B0D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FCFA510018598078005E1B0D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FCFA510118598078005E1B0D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FCFA510218598078005E1B0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FCFA510518598078005E1B0D /* elbie-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "elbie-Info.plist"; sourceTree = "<group>"; };
+		FCFA510718598078005E1B0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCFA510918598078005E1B0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCFA510B18598078005E1B0D /* elbie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "elbie-Prefix.pch"; sourceTree = "<group>"; };
+		FCFA510D18598078005E1B0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FCFA510F18598078005E1B0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCFA511018598078005E1B0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCFA511318598078005E1B0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FCFA511518598078005E1B0D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FCFA511B18598078005E1B0D /* elbieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = elbieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFA511C18598078005E1B0D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FCFA512318598078005E1B0D /* elbieTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "elbieTests-Info.plist"; sourceTree = "<group>"; };
+		FCFA512518598078005E1B0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCFA512718598078005E1B0D /* elbieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = elbieTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCFA50F718598078005E1B0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFA50FE18598078005E1B0D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFA511818598078005E1B0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFA511E18598078005E1B0D /* Cocoa.framework in Frameworks */,
+				FCFA511D18598078005E1B0D /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCFA50F118598078005E1B0D = {
+			isa = PBXGroup;
+			children = (
+				FCFA510318598078005E1B0D /* elbie */,
+				FCFA512118598078005E1B0D /* elbieTests */,
+				FCFA50FC18598078005E1B0D /* Frameworks */,
+				FCFA50FB18598078005E1B0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCFA50FB18598078005E1B0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCFA50FA18598078005E1B0D /* elbie.app */,
+				FCFA511B18598078005E1B0D /* elbieTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCFA50FC18598078005E1B0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCFA50FD18598078005E1B0D /* Cocoa.framework */,
+				FCFA511C18598078005E1B0D /* XCTest.framework */,
+				FCFA50FF18598078005E1B0D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCFA50FF18598078005E1B0D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCFA510018598078005E1B0D /* AppKit.framework */,
+				FCFA510118598078005E1B0D /* CoreData.framework */,
+				FCFA510218598078005E1B0D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FCFA510318598078005E1B0D /* elbie */ = {
+			isa = PBXGroup;
+			children = (
+				FCFA510F18598078005E1B0D /* AppDelegate.h */,
+				FCFA511018598078005E1B0D /* AppDelegate.m */,
+				FCFA511218598078005E1B0D /* MainMenu.xib */,
+				FCFA511518598078005E1B0D /* Images.xcassets */,
+				FCFA510418598078005E1B0D /* Supporting Files */,
+			);
+			path = elbie;
+			sourceTree = "<group>";
+		};
+		FCFA510418598078005E1B0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCFA510518598078005E1B0D /* elbie-Info.plist */,
+				FCFA510618598078005E1B0D /* InfoPlist.strings */,
+				FCFA510918598078005E1B0D /* main.m */,
+				FCFA510B18598078005E1B0D /* elbie-Prefix.pch */,
+				FCFA510C18598078005E1B0D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCFA512118598078005E1B0D /* elbieTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCFA512718598078005E1B0D /* elbieTests.m */,
+				FCFA512218598078005E1B0D /* Supporting Files */,
+			);
+			path = elbieTests;
+			sourceTree = "<group>";
+		};
+		FCFA512218598078005E1B0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCFA512318598078005E1B0D /* elbieTests-Info.plist */,
+				FCFA512418598078005E1B0D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCFA50F918598078005E1B0D /* elbie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCFA512B18598079005E1B0D /* Build configuration list for PBXNativeTarget "elbie" */;
+			buildPhases = (
+				FCFA50F618598078005E1B0D /* Sources */,
+				FCFA50F718598078005E1B0D /* Frameworks */,
+				FCFA50F818598078005E1B0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = elbie;
+			productName = elbie;
+			productReference = FCFA50FA18598078005E1B0D /* elbie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCFA511A18598078005E1B0D /* elbieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCFA512E18598079005E1B0D /* Build configuration list for PBXNativeTarget "elbieTests" */;
+			buildPhases = (
+				FCFA511718598078005E1B0D /* Sources */,
+				FCFA511818598078005E1B0D /* Frameworks */,
+				FCFA511918598078005E1B0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCFA512018598078005E1B0D /* PBXTargetDependency */,
+			);
+			name = elbieTests;
+			productName = elbieTests;
+			productReference = FCFA511B18598078005E1B0D /* elbieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCFA50F218598078005E1B0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Dylan Taylor";
+				TargetAttributes = {
+					FCFA511A18598078005E1B0D = {
+						TestTargetID = FCFA50F918598078005E1B0D;
+					};
+				};
+			};
+			buildConfigurationList = FCFA50F518598078005E1B0D /* Build configuration list for PBXProject "elbie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCFA50F118598078005E1B0D;
+			productRefGroup = FCFA50FB18598078005E1B0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCFA50F918598078005E1B0D /* elbie */,
+				FCFA511A18598078005E1B0D /* elbieTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCFA50F818598078005E1B0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFA510818598078005E1B0D /* InfoPlist.strings in Resources */,
+				FCFA511618598078005E1B0D /* Images.xcassets in Resources */,
+				FCFA510E18598078005E1B0D /* Credits.rtf in Resources */,
+				FCFA511418598078005E1B0D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFA511918598078005E1B0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFA512618598078005E1B0D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCFA50F618598078005E1B0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFA511118598078005E1B0D /* AppDelegate.m in Sources */,
+				FCFA510A18598078005E1B0D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFA511718598078005E1B0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFA512818598078005E1B0D /* elbieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCFA512018598078005E1B0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCFA50F918598078005E1B0D /* elbie */;
+			targetProxy = FCFA511F18598078005E1B0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCFA510618598078005E1B0D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCFA510718598078005E1B0D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FCFA510C18598078005E1B0D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCFA510D18598078005E1B0D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		FCFA511218598078005E1B0D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCFA511318598078005E1B0D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		FCFA512418598078005E1B0D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCFA512518598078005E1B0D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCFA512918598079005E1B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FCFA512A18598079005E1B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FCFA512C18598079005E1B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "elbie/elbie-Prefix.pch";
+				INFOPLIST_FILE = "elbie/elbie-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FCFA512D18598079005E1B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "elbie/elbie-Prefix.pch";
+				INFOPLIST_FILE = "elbie/elbie-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FCFA512F18598079005E1B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/elbie.app/Contents/MacOS/elbie";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "elbie/elbie-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "elbieTests/elbieTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FCFA513018598079005E1B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/elbie.app/Contents/MacOS/elbie";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "elbie/elbie-Prefix.pch";
+				INFOPLIST_FILE = "elbieTests/elbieTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCFA50F518598078005E1B0D /* Build configuration list for PBXProject "elbie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFA512918598079005E1B0D /* Debug */,
+				FCFA512A18598079005E1B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCFA512B18598079005E1B0D /* Build configuration list for PBXNativeTarget "elbie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFA512C18598079005E1B0D /* Debug */,
+				FCFA512D18598079005E1B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCFA512E18598079005E1B0D /* Build configuration list for PBXNativeTarget "elbieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFA512F18598079005E1B0D /* Debug */,
+				FCFA513018598079005E1B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCFA50F218598078005E1B0D /* Project object */;
+}
